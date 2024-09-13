@@ -1,14 +1,12 @@
+#include<bits/stdc++.h>
 using namespace std;
-#include <iostream>
-int main()
-{
-	float E = 1;
-	int n = 0;
-	do
-	{
-		n++;
-		E = E * 10;
-		cout << n << " " << E << endl;
-	} while (1 + E != E);
-	cout << n;
+int main() {
+    int n = 0;
+    double E = 1;
+    do {
+        n++;
+        E = E /10;
+        cout << n << " " << E;
+        cout << endl;
+    } while (1 + E != 1);
 }
