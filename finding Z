@@ -1,0 +1,15 @@
+using namespace std;
+#include <iostream>
+int main()
+{
+	double z = 1;
+	int n = 0;
+	do
+	{
+		n++;
+		z = z / 10;
+		cout << n << " " << z << endl;
+	} while (2 * z > z);
+	cout << n;
+
+}
