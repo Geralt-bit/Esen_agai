@@ -2,14 +2,13 @@ using namespace std;
 #include <iostream>
 int main()
 {
-	double E = 1;
+	float E = 1;
 	int n = 0;
 	do
 	{
 		n++;
-		E = E / 10;
+		E = E * 10;
 		cout << n << " " << E << endl;
-	} while (2 + E != E);
+	} while (1 + E != E);
 	cout << n;
-
 }
